@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.button-border{
+    
+    background:linear-gradient(red);
+    padding:2px;
+  
+    
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 1.5em 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .1em;
+}
+.button-border:hover .btn{
+    color: burlywood;
+    padding: 1.1em 1.6em;
+}
+.button-border:hover{
+    background-color: blue;
+}

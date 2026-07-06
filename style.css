@@ -1,0 +1,16 @@
+body{
+    margin-top: 9px;
+    margin-bottom: 9px;
+
+    padding: 9px;
+    padding-top: 9px;
+
+    background-color:gray;
+    border: 1px solid #000;
+    font-size: larger;
+    font-style: italic;
+    color: white;
+   
+
+
+}
