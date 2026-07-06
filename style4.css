@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.circle{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: black;
+    margin: .5em;
+    border-radius: 50%;
+    animation:  pulse infinite alternate 1s;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes pulse {
+    from{
+            background-color: gray;
+    }
+    to{
+            background-color:gainsboro;
+            height: 1.6em;
+            width: 1.6em;
+    }
+    
+}
