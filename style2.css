@@ -3,14 +3,22 @@
     margin: auto;
     width:90%;
     background-color: blueviolet;
+    min-width: 340px;
     
 }
 .search-c{
-    width: 30%;
+    width: 10%;
     line-height: 2;
     border-radius: 4px;
+    transition: all .3s;
 }
-.search-c:focus{
-    border-color: red;
+.search-c:hover{
     width: 100%;
+    border-color: red;
+}
+.search-c::placeholder{
+    font-size: 500;
+}
+.search-c:hover::placeholder{
+    color: transparent;
 }
