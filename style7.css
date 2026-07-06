@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1:after{
+    content: "";
+    animation: 6s infinite swap;
+    background-color: blueviolet;
+}
+@keyframes swap{
+    0%{
+            content: " animals😻🙉🐶🦁";
+    }
+    25%{
+            content: " cat😻";
+    }
+    50%{
+            content: " lion🦁";
+    }
+    75%{
+            content: " dog🐶";
+    }
+    100%{
+            content: " monkey🐒🐵";
+    }
+}

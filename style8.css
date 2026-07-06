@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.flag-france{
+    height: 150px;
+    width: calc(150px*3/2);
+    background-color: white;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+    
+}
+.stripe{
+    flex-grow: 1;
+}
+.red{
+    background:red;
+}
+.blue{
+    background:blue;
+}
+.white{
+    background:white;
+}
