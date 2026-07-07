@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.flag-sweden{
+    height: 150px;
+    width: calc(150px*8/5);
+    background: blue;
+    display: flex;
+    position: relative;
+    margin: 2em auto;
+}
+.cross{
+    background:yellow;
+    height: calc(150px*1/5);
+}
+.cross1{
+    align-self: center;
+    width: 100%;
+}
+.cross2{
+    width: 150px;
+    position: absolute ;
+    transform: rotate(90deg);
+    top: calc(150px*4/10);
+    right: calc(150px*5/10);
+}
