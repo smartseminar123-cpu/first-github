@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.toggle-wrap{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.toggle-input{
+    display: none;
+}
+label{
+    width: 100px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: .25em;
+    background: white;
+}
+.toggle-switch{
+    height: 40px;
+    width: 40px;
+    background: black;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.toggle-input:checked ~ .toggle-switch{
+    transform: translateX(calc(100px - 40px));
+}

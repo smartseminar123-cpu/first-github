@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding:0;
+    background: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stories-menu{
+    padding-left:0;
+    list-style-type: none;
+     
+}
+.img-wrapper{
+    height: 60px;
+    width: 60px;
+    padding: 4px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.new > .img-wrapper{
+    background: linear-gradient(to top right,red,blue,pink,purple);
+}
