@@ -8,7 +8,18 @@ body{
 .stories-menu{
     padding-left:0;
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 320px;
+    margin: 2em auto;
+    
      
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
 }
 .img-wrapper{
     height: 60px;
@@ -27,4 +38,23 @@ body{
 }
 .new > .img-wrapper{
     background: linear-gradient(to top right,red,blue,pink,purple);
+}
+.viewed > .img-wrapper{
+    background: gray;
+}
+.live:after{
+    content: "LIVE";
+    font-size: .5em;
+    font-weight: bold;
+    background: red;
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 20px;
+    padding: 2px 4px;
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    
 }
